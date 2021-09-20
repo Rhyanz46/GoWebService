@@ -3,6 +3,8 @@ module main
 go 1.17
 
 require (
+	github.com/Rhyanz46/SimpleCsv v0.0.0-20210915081105-a67d296d28b4 // indirect
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/felixge/httpsnoop v1.0.2 // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/gorilla/handlers v1.5.1 // indirect
