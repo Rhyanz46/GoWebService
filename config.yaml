@@ -3,5 +3,5 @@ primary_db:
   host: "172.19.0.2"
   username: "root"
   password: "a"
-  db_name: "databasenya"
+  db_name: "synchronization"
   port: "3306"

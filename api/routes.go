@@ -17,7 +17,7 @@ func (server *Server) initializeRoutes() {
 
 	// chat router
 	chatRoute := chat.Routes(&utils.RouterConfig{PrimaryDB: server.PrimaryDB})
-	chatRoute.Hub.Run()
+	go chatRoute.Hub.Run()
 	route("/chat/customer-service", chatRoute.HandleChatCustomerService)
 
 }
